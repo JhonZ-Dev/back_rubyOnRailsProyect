@@ -1,0 +1,2 @@
+class MovimientoInventarioController < ApplicationController
+end

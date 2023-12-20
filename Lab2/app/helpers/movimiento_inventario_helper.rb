@@ -1,0 +1,2 @@
+module MovimientoInventarioHelper
+end
