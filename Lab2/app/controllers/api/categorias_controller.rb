@@ -4,10 +4,7 @@ class Api::CategoriasController < ApplicationController
     before_action :set_categoria, only: [:show, :update, :destroy]
     skip_before_action :verify_authenticity_token
   
-    def index
-      categorias = Categorias.all
-      render json: categorias
-    end
+ 
   
     def show
       render json: @categoria
